@@ -1,4 +1,4 @@
-# Ubuntu Clone
+# utilize it for something else
 
 inspi: 
 
