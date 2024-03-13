@@ -1,4 +1,4 @@
-# utilize it for something else
+# Utilize it for something else
 
 inspi: 
 
