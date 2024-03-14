@@ -7,3 +7,5 @@ inspi:
 - https://win11-svelte.vercel.app
 
 - https://photos.app.goo.gl/1nv2YLg3eZZpwRV
+
+- or u can create ur own distro
