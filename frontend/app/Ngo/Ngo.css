@@ -1,0 +1,82 @@
+.registration-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Align to the top of the container */
+    height: 100vh;
+    padding: 20px; /* Add some padding to the top and bottom */
+    box-sizing: border-box; /* Include padding and border in the total height */
+  }
+  
+  .registration-heading {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #c78d6c;
+  }
+  
+  .registration-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    max-width: 800px; /* Adjusted max-width */
+    width: 100%; /* Adjusted width */
+    padding: 20px;
+    border: 1px solid #e0a874;
+    border-radius: 12px;
+    background-color: #f8f0e3;
+    color: #6d5c4c;
+    margin-bottom: 1rem;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
+    border: 1px solid #e0a874;
+    border-radius: 8px;
+    outline: none; /* Remove outline */
+  }
+  
+  .registration-button {
+    grid-column: span 2; /* Span across both columns */
+    padding: 15px;
+    font-size: 1.2rem;
+    background-color: #e0a874;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .registration-button:hover {
+    background-color: #c78d6c;
+    
+  }
+  
+  .already-have-account {
+    /* margin-top: 20px; */
+    font-size: 1.1rem;
+    padding-bottom: 20px;
+ 
+  }
+  
+  .login-link {
+    color: #007bff;
+    text-decoration: none;
+    
+  }
+  
+  .login-link:hover {
+    text-decoration: underline;
+  }
+  

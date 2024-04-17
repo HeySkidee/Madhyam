@@ -1,0 +1,104 @@
+.helpage-india{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+.helpage-india-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #f8f0e3;
+  color: #4e3214;
+  
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.ngo-name {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+
+.progress-bar-container {
+  width: 100%;
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #4CAF50;
+}
+
+.fund-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.raised-amount,
+.goal-amount {
+  font-size: 18px;
+  color: #666;
+}
+
+.payment-options {
+  margin-top: 1rem;
+}
+
+.payment-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.paypal-button,
+.paytm-button {
+  padding: 0.5rem 1rem;
+  font-size: 18px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.paypal-button:hover,
+.paytm-button:hover {
+  background-color: #39a53d;
+  color: white;
+  border: 1px solid transparent;
+}
+
+/* .upi-qr-code {
+  
+} */

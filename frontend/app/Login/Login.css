@@ -1,0 +1,88 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login-heading {
+  font-size: 4rem;
+  margin-bottom: 30px;
+  color: #c78d6c;
+}
+
+.login-form {
+  width: 400px;
+  padding: 30px;
+  border: 1px solid #e0a874;
+  border-radius: 12px;
+  background-color: #f8f0e3;
+  color: #6d5c4c;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.2rem;
+  border: 1px solid #e0a874;
+  border-radius: 8px;
+  outline: none; /* Remove outline */
+}
+
+.login-button {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.2rem;
+  background-color: #e0a874;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #c78d6c;
+}
+
+.create-account {
+  margin-top: 20px;
+}
+
+.create-account-link {
+  font-size: 1.2rem;
+  color: #af7656;
+  text-decoration: none;
+}
+
+.create-account-link:hover {
+  text-decoration: underline;
+}
+/* Style the Link component to resemble the button */
+.LoginButton {
+  display: inline-block;
+  width: 100%;
+  padding: 15px;
+  font-size: 1.2rem;
+  background-color: #e0a874;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none; /* Remove default underline */
+}
+
+.LoginButton:hover {
+  background-color: #c78d6c;
+}

@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f0e3;
+}
+
+.get-started {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6.5rem 1.5rem;
+}
+
+.get-started h1 {
+  font-size: 3rem;
+  color: #c78d6c;
+  margin-bottom: 2.2rem;
+  text-align: center;
+}
+
+.get-started p {
+  font-size: 1.2rem;
+  color: #6d5c4c;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.get-started-box-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.get-started-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 2rem 1rem 2rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  background-color: #fce7c2;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.get-started-box:hover {
+  background-color: #f8f0e3;
+}
+
+.get-started-box h3 {
+  font-size: 1.5rem;
+  color: #c78d6c;
+  margin-bottom: 1.3rem;
+}
+
+.get-started-box p {
+  font-size: 1rem;
+  color: #6d5c4c;
+}
+
+@media (max-width: 1024px) {
+  .get-started {
+    padding: 5rem 1.5rem;
+  }
+
+  .get-started h1 {
+    font-size: 2.5rem;
+  }
+
+  .get-started p {
+    font-size: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .get-started-box-container {
+    gap: 1.5rem;
+  }
+
+  .get-started-box {
+    padding: 1.5rem;
+  }
+
+  .get-started-box h3 {
+    font-size: 1.2rem;
+  }
+
+  .get-started-box p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .get-started {
+    padding: 3rem 1.5rem;
+  }
+
+  .get-started h1 {
+    font-size: 2rem;
+  }
+
+  .get-started p {
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+  }
+
+  .get-started-box-container {
+    flex-direction: column;
+  }
+
+  .get-started-box {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .get-started {
+    padding: 2rem 1.5rem;
+  }
+
+  .get-started h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .get-started p {
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .get-started-box-container {
+    flex-direction: column;
+  }
+
+  .get-started-box {
+    margin-bottom: 1rem;
+  }
+}
