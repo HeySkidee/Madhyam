@@ -1,4 +1,4 @@
-## Madhyam
+# Madhyam
 
 ### About the Project
 
