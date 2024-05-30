@@ -1,4 +1,4 @@
-// "use client";
+"use client";
 import React, { useState } from "react";
 import Feed from "@/components/Feed";
 import LeftSidebar from "@/components/LeftSidebar";
